@@ -1,0 +1,18 @@
+ name: Install Nginx on Pathnex server
+hosts: all 
+become: yes 
+tasks: name
+: Install nginx     
+yum:name: nginx      
+state: present🔹
+Docker# Docker Installation
+&
+First Containerdocker --versiondocker
+run ubuntu
+echo "Hello Pathnex"
+# Docker FileFROM ubuntu:22.04CMD ["echo", "Hello Pathnex"]
+Collapse file‎timimgs/Day01-02-Nov-2026.txt‎Copy
+file name to clipboard+4Lines
+changed: 4 additions & 0 deletionsOriginal file 
+line numberDiff line numberDiff line change@@ -0,0 +1,4 @@15 min - launch ec2 server15 min - git codean hour -
+learn ip address & it there types with DNSan hour - practice for english speaking
